@@ -1,0 +1,25 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*navbar*/
+nav .navbar-brand{
+	letter-spacing: 3px;
+}
+
+nav .nav-item .nav-link{
+	color: #EEE !important;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+}
+
+nav .nav-item .nav-link:hover,
+nav .nav-item .nav-link:active,
+nav .nav-item .nav-link:focus{
+	color: orange !important;
+}
+
+/*card*/
+.card{
+	box-shadow: 0 2px 5px #ddd;
+}
